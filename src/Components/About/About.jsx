@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import theme_pattern from  '../../assets/theme_pattern.svg'
 // import profile_img from '../../assets/about_profile.svg'
+// import ritik_nagar from '../../assets/ritik_nagar.jpg'
 
 const About = () => {
   return (
