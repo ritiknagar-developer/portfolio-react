@@ -2,7 +2,8 @@ import React from 'react'
 import './About.css'
 import theme_pattern from  '../../assets/theme_pattern.svg'
 // import profile_img from '../../assets/about_profile.svg'
-// import ritik_nagar from '../../assets/ritik_nagar.jpg'
+import rnImage from '../../assets/rn.jpg';
+
 
 const About = () => {
   return (
@@ -13,7 +14,8 @@ const About = () => {
         </div>
         <div className="about-section">
             <div className="about-left">
-                <img src='src/assets/rn.jpg' alt="" />
+            <img src={rnImage} alt="Profile" />
+
             </div>
             <div className="about-right">
                 <div className="about-para">
