@@ -113,7 +113,7 @@
     
 }
 
-@media(min-width:768px){
+@media(max-width:768px){
     .contact{
         gap: 50px;
         margin: 50px 70px;

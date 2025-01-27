@@ -78,7 +78,7 @@ gap: 35px;
     /* text-decoration: underline; */
 }
 
-@media(min-width:768px){
+@media(max-width:768px){
     .footer{
         margin: 50px 70px;
     }
