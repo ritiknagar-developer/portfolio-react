@@ -3,6 +3,8 @@ import './About.css'
 import theme_pattern from  '../../assets/theme_pattern.svg'
 // import profile_img from '../../assets/about_profile.svg'
 // import rnImage from '../../assets/rn.jpg';
+import rnImage from '../../assets/rn.jpg';
+
 
 
 const About = () => {
@@ -14,7 +16,8 @@ const About = () => {
         </div>
         <div className="about-section">
             <div className="about-left">
-            <img src="C:\Users\ritik\OneDrive\Desktop\portfolio-react\src\assets\rn.jpg" alt="Profile" />
+            <img src={rnImage} alt="Profile" />
+
 
             </div>
             <div className="about-right">
